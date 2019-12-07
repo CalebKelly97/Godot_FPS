@@ -62,7 +62,7 @@ albedo_color = Color( 0.536256, 0.0622101, 0.589844, 1 )
 bounce = 0.6
 
 [sub_resource type="SpatialMaterial" id=12]
-albedo_color = Color( 0.140531, 0.589844, 0.0622101, 1 )
+albedo_color = Color( 0.207843, 0.235294, 0.623529, 1 )
 
 [sub_resource type="PhysicsMaterial" id=13]
 bounce = 0.6
@@ -172,7 +172,6 @@ material/0 = SubResource( 5 )
 environment = SubResource( 7 )
 
 [node name="Cubes" type="Spatial" parent="."]
-editor/display_folded = true
 
 [node name="PurpleCube" type="RigidBody" parent="Cubes"]
 editor/display_folded = true
@@ -253,7 +252,6 @@ mesh = SubResource( 9 )
 material/0 = SubResource( 10 )
 
 [node name="GreenCube" type="RigidBody" parent="Cubes"]
-editor/display_folded = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 9.95316, -21.6551 )
 mass = 5.0
 physics_material_override = SubResource( 11 )
